@@ -1,0 +1,391 @@
+* {
+	box-sizing: border-box;
+}
+footer {
+	margin:0 55px;
+}
+button:active, button:focus, input, input:focus, textarea, textarea:focus {
+    outline: none;
+    border: 0;
+}
+p {
+	margin: 0;
+} 
+.container {
+	width: 1100px;
+	margin:auto;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+.input {
+	background: #FFFFFF;
+	border: 1px solid #D9D9D9;
+	box-sizing: border-box;
+	border-radius: 2px;
+	font-size: 16px;
+	line-height: 24px;
+	background-repeat: no-repeat;
+	background-position: left 11px center;
+	padding-left: 35px;
+}
+.main {
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 0.99),  rgb(240, 240, 240));
+
+}
+button:hover {
+	cursor: pointer;
+}
+.button:hover {
+	position: relative;
+	top: -1px;
+	box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+/***************************************
+*************kurer-header***************
+***************************************/
+
+.kurer-header {
+	padding:24px 55px;
+	background: #ddd;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	color:#393939;
+	flex-wrap:wrap;
+}
+.kurer-header-city {
+	font-size: 22px;
+    font-weight: 700;
+    text-align: left;
+    line-height: 28px;
+    cursor: pointer;
+}
+.kurer-header-number {
+	font-size: 22px;
+    font-weight: 700;
+    text-align: left;
+    line-height: 28px;
+    cursor: pointer;
+}
+.drop-down-arrow {
+	width: 12px;
+	height: 12px;
+	margin-left:7px;
+}
+.number {
+	text-decoration:none;
+	color:#393939;
+}
+.phone {
+	width: 22px;
+	height: 22px;
+	margin-right:7px;
+	top:50%;
+}
+.kurer-header-list {
+	display:none;
+	position: absolute;
+    top: 76px;
+    left: 50px;
+    z-index: 213123;
+	width: 230px;
+	
+	
+}
+.dropdown-is-open {
+	display:block;
+	
+}
+.kurer-header-list-item {
+	background: #ddd;
+
+
+	padding:5px;
+	transition:0.2s;
+
+}
+.kurer-header-list-item:hover{
+	border-right:9px solid #32aa3e;
+}
+.kurer-header-list-item-link {
+	line-height:28px;
+	font-size: 22px;
+    font-weight: 700;
+    text-align: left;
+    cursor: pointer;
+    text-decoration:none;
+    color: #393939;
+}
+
+/***************************************
+*************kurer-header***************
+***************************************/
+
+
+
+/***************************************
+*************MAIN**********************
+***************************************/
+
+
+.main {
+	background-image: url(../img/kurer.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-bottom: 50px;
+	height: 800px;
+}
+.main-title {
+	padding-top: 120px;
+    margin-bottom: 8px;
+    width: 620px;
+    font-size: 58px;
+    line-height: 80px;
+    color: #fff;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.join-to-kurer {
+	margin: 30px 0;
+
+}
+.join-to-kurer-text {
+	color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 48px;
+}
+.card-request {
+	margin-left:40px;
+	display:flex;
+	flex-wrap:wrap;
+	border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,.08), 0 0 2px 0 rgba(0,0,0,.12);
+    width: 500px;  
+    padding: 40px 60px 0px;
+}
+.card-request-title {
+	padding-bottom: 12px;
+    font-size: 22px;
+    line-height: 28px;
+    line-height: 36px;
+    color: #2e2e33;
+}
+.input-def {
+	border-bottom: 1px solid #e3e4e6;
+    color: #919399;
+    font-size: 15px;
+    width: 100%;
+    line-height: 17px;
+    padding: 30px 0 8px;
+}
+.label-title-def {  
+    position: relative;
+    color: #919399;
+    font-size: 15px;
+    left: 0;
+    top: -48px;
+}
+.input-def:focus{
+	border-bottom: 1px solid #999;	
+	color: #333;
+}
+.input-def-error {
+	border-bottom: 1px solid #e93627;
+}
+.label-title-def-error {
+	  color: #e93627;
+}
+.card-request-button {
+	position: relative;
+    left: 0;
+    bottom: 0;
+    background: #0ec645;
+    border:1px solid #0ec645;
+    height: 72px;
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    color: #fff;
+
+}
+
+
+/***************************************
+*************MAIN**********************
+***************************************/
+
+
+
+/***************************************
+*************FOOter*********************
+***************************************/
+
+.footer {
+	margin-top:150px;
+	padding: 60px 0;
+}
+.footer-block {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.footer-nav {
+	margin-right: auto;
+	margin-left: 35px;
+}
+.footer-link {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	text-decoration: none;
+	color: #595959;
+}
+.footer-link:not(:last-child) {
+	margin-right: 15px;
+}
+.social-links {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.social-link:not(:last-child) {
+	margin-right: 21px;
+}
+
+/***************************************
+*************FOOter*********************
+***************************************/
+
+
+
+
+
+/***************************************
+*************адаптив********************
+***************************************/
+
+@media (max-width:1366px) {
+	.container {
+		max-width: 92%;
+	}
+}
+@media(max-width: 992px) {
+	.container {
+		max-width: 85%;
+	}
+	.footer-link {
+		font-size: 16px;
+		width: 350px;
+	}
+	.container {
+		max-width: 88%;
+	}
+	.join-partners-clients-item { 
+		flex-basis: 33%;
+		width: 100px;
+	    height: 100px;
+	}
+
+
+}	
+@media(max-width: 768px) {
+	.container {
+		width: 500px;
+	}
+	.card-request{
+		margin:auto;
+	}
+	.main-title {
+		font-size:31px;
+	}
+	.join-to-kurer-text {
+		font-size:22px;
+	}	
+	.main-title {
+		padding-top: 50px;
+	}
+	.card-request {
+		width:370px;
+	}
+	.main-title {
+		width:350px;
+	}
+	.join-to-kurer {
+    	margin: 15px 0;
+	}
+	.footer {
+		margin-top:50px;
+	}
+
+}
+@media(max-width: 564px) {
+	.container {
+		width: 90%;
+	}
+	.footer-block {
+		flex-wrap: wrap;
+	}
+	.logo-footer , .footer-nav {
+		flex: 1;
+		flex-wrap: wrap;	
+	}
+	.social-links {
+		margin-top: 15px;
+	}
+	.buttons {
+		margin-top: 10px;
+		width: 100%;
+		justify-content: space-between;
+	}
+	.social-links:not(:last-child) {
+   		margin: auto; 
+
+	}
+	.main-title {
+		font-size:22px;
+	}
+	.join-to-kurer-text {
+		font-size:15px;
+	}	
+	.main-title {
+		padding-top: 20px;
+
+	}
+	.join-to-kurer {
+    	margin: 15px 0;
+	}
+	.card-request {
+    	width: 330px;
+	}
+
+	
+
+}	
+
+
+/***************************************
+*************адаптив********************
+***************************************/
+
+
+
+
+
+
+
+
+
+
+

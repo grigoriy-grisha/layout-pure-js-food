@@ -1,0 +1,281 @@
+[
+{ 
+    "tanuki": {
+        "title": "Тануки",
+        "time": "30 мин",
+        "reating": "4.0",
+        "cost": "От 1000 ₽",
+        "danie": "Cуши,роллы",
+        "image": "../img/tanyki.png",
+        "href": "Tanyki.html",
+        "restuant": {
+            "100" : {
+                "names": "Ролл угорь стандарт",
+                "description": "Рис, угорь, соус унаги, кунжут, водоросли нори.",
+                "price": "250",
+                "image": "/img/tanyki1.png"
+            },
+            "101" : {
+                "names": "Калифорния лосось стандарт",
+                "description": "Рис, лосось, авокадо, огурец, майонез, икра масаго, водоросли нори.",
+                "price": "350",
+                "image": "/img/tanyki2.png"
+            },
+            "102" : {
+                "names": "Окинава стандарт",
+                "description": "Рис, креветка отварная, сыр сливочный, лосось, огурец свежий...",
+                "price": "450",
+                "image": "/img/tanyki3.png"
+            },
+            "103" : {
+                "names": "Цезарь маки хl",
+                "description": "Рис, куриная грудка копченая, икра масаго, томат, айсберг, соус цезарь...",
+                "price": "300",
+                "image": "/img/tanyki4.png"
+            },
+            "104" : {
+                "names": "Ясай маки стандарт 185 г",
+                "description": "Рис, помидор свежий, перец болгарский, авокадо, огурец, айсберг",
+                "price": "450",
+                "image": "/img/tanyki5.png"
+            },
+            "105" : {
+                "names": "Ролл с креветкой стандарт",
+                "description": "Рис, водоросли нори, креветки отварные, сыр сливочный, огурцы",
+                "price": "500",
+                "image": "/img/tanyki6.png"
+            }
+        }
+       
+
+    },
+    "pizzaPlus": {
+        "title": "Пицца плюс",
+        "time": "50 мин",
+        "reating": "4.5",
+        "cost": "От 1 ₽",
+        "danie": "Пицца",
+        "image": "../img/pizza-plus.png",
+        "href": "pizzaplus.html",
+        "restuant": {
+            "112" : {
+                "names": "Пепперони, Большая",
+                "description": "Пепперони, Сыр Моцарелла",
+                "price": "350",
+                "image": "../img/peperoni.jpg"
+            },
+            "113" : {
+                "names": "Маргарита Гурме, Большая",
+                "description": "Свежие томаты, Сыр Моцарелла",
+                "price": "400",
+                "image": "../img/margarita.jpg"
+            },
+            "114" : {
+                "names": "La-Grigorya",
+                "description": "Любовь Григория",
+                "price": "1",
+                "image": "../img/la-grigorya.jpg"
+            },
+            "115" : {
+                "names": "Домашняя",
+                "description": "Ветчина, Свежие томаты, Сыр Моцарелла, Соус Сырный",
+                "price": "300",
+                "image": "../img/domashnya.jpg"
+            },
+            "116" : {
+                "names": "Гавайская ",
+                "description": "Ананас, Ветчина, Сыр Моцарелла",
+                "price": "450",
+                "image": "../img/gavaiskaya.jpg"
+            },
+            "117" : {
+                "names": "4 сыра",
+                "description": "Соус Карбонара, Сыр Роккфорти, Сыр Пармезан, Сыр Чеддер (тёртый), Сыр Моцарелла",
+                "price": "500",
+                "image": "../img/4ser.jpg"
+            }
+        }
+
+    },
+    "foodBand": {
+        "title": "FoodBand",
+        "time": "40 мин",
+        "reating": "4.3",
+        "cost": "От 800 ₽",
+        "danie": "Кухня италии",
+        "image": "../img/foodBand.png",
+        "href": "FoodBand.html",
+        "restuant": {
+            "106" : {
+                "names": "Сет Три + три",
+                "description": "Kлассические роллы",
+                "price": "1400",
+                "image": "../img/3+3.jpg"
+            },
+            "107" : {
+                "names": "Набор Пикник",
+                "description": "Пиццы:  Мясная,  Классика,  Фермерская,  Петровская",
+                "price": "1100",
+                "image": "../img/Picknick.jpg"
+            },
+            "108" : {
+                "names": "Пицца Барбекю классическая",
+                "description": "Пицца Барбекю классическая",
+                "price": "450",
+                "image": "/img/BBQ.jpg"
+            },
+            "109" : {
+                "names": "Пицца Тар-Тар классическая",
+                "description": "Курица, бекон, помидоры, огурцы маринованные, ",
+                "price": "450",
+                "image": "/img/tar-tar.jpg"
+            },
+            "110" : {
+                "names": "Пицца Сборная классическая",
+                "description": "Пепперони, свинина, говядина, ветчина,",
+                "price": "480",
+                "image": "/img/Sbornaya.jpg"
+            },
+            "111" : {
+                "names": "Пицца Гавайская фирменная",
+                "description": "Курица, ананасы, соус сливочный, моцарелла",
+                "price": "500",
+                "image": "/img/VOK.jpg"
+            }
+        }
+
+    },
+    "dotFood": {
+        "title": "Точка еды",
+        "time": "60 мин",
+        "reating": "4.7",
+        "cost": "От 1100 ₽",
+        "danie": "Русская кухня",
+        "image": "../img/dotFood.png",
+        "href": "dotfood.html",
+        "restuant": {
+            "118" : {
+                "names": "Денвер",
+                "description": "",
+                "price": "450",
+                "image": "../img/денвер.jpg"
+            },
+            "119" : {
+                "names": "Куриный шницель",
+                "description": "",
+                "price": "350",
+                "image": "../img/куриный шницель.jpg"
+            },
+            "120" : {
+                "names": "Лангусты на гриле",
+                "description": "",
+                "price": "250",
+                "image": "../img/лангусты на гриле.jpg"
+            },
+            "121" : {
+                "names": "Суп Том-ям",
+                "description": "",
+                "price": "300",
+                "image": "../img/суп.jpg"
+            },
+            "122" : {
+                "names": "Шаурма куриная",
+                "description": "",
+                "price": "450",
+                "image": "../img/шава.jpg"
+            },
+            "123" : {
+                "names": "Роллы филадельфия",
+                "description": "",
+                "price": "140",
+                "image": "../img/холодные роллы филадельфия.jpg"
+            }
+        }
+
+    },
+    "cormorantPizza": {
+        "title": "Жадина-Пицца",
+        "time": "45 мин",
+        "reating": "4.9",
+        "cost": "От 1200 ₽",
+        "danie": "Пицца",
+        "image": "../img/cormorantPizza.png",
+        "href": "cormorantPizaa.html",
+        "restuant": {
+            "124" : {
+                "names": "Паштет из куриной печени",
+                "description": "Паштет из куриной печени",
+                "price": "250",
+                "image": "../img/паштет.jpg"
+            },
+            "125" : {
+                "names": "Подкопченная утка с черемшой",
+                "description": " Утиная грудка, черемша, крем из печеного лука",
+                "price": "350",
+                "image": "../img/утка.jpg"
+            },
+            "126" : {
+                "names": "Жареный ананас с кокосоми мандарином",
+                "description": "",
+                "price": "150",
+                "image": "../img/ананас.jpg"
+            },
+            "127" : {
+                "names": "Цитрусовый чизкейк",
+                "description": "Творожный сыр, сливки, яичный желток, желатин, лайм,",
+                "price": "175",
+                "image": "../img/чизкейк.jpg"
+            }
+            
+        }
+
+    },
+    "pizzaBurger": {
+        "title": "PizzaBurger",
+        "time": "35 мин",
+        "reating": "4.4",
+        "cost": "От 950 ₽",
+        "danie": "Пицца,бургеры",
+        "image": "../img/pizzaBurder.png",
+        "href": "pizzaBurger.html",
+        "restuant": {
+            "128" : {
+                "names": "Пепперони, Большая",
+                "description": "Пепперони, Сыр Моцарелла",
+                "price": "350",
+                "image": "../img/peperoni.jpg"
+            },
+            "129" : {
+                "names": "Маргарита Гурме, Большая",
+                "description": "Свежие томаты, Сыр Моцарелла",
+                "price": "400",
+                "image": "../img/margarita.jpg"
+            },
+            "130" : {
+                "names": "La-Grigorya",
+                "description": "Любовь Григория",
+                "price": "1",
+                "image": "../img/la-grigorya.jpg"
+            },
+            "131" : {
+                "names": "Домашняя",
+                "description": "Ветчина, Свежие томаты, Сыр Моцарелла, Соус Сырный",
+                "price": "300",
+                "image": "../img/domashnya.jpg"
+            },
+            "132" : {
+                "names": "Гавайская ",
+                "description": "Ананас, Ветчина, Сыр Моцарелла",
+                "price": "450",
+                "image": "../img/gavaiskaya.jpg"
+            },
+            "133" : {
+                "names": "4 сыра",
+                "description": "Соус Карбонара, Сыр Роккфорти, Сыр Пармезан, Сыр Чеддер (тёртый), Сыр Моцарелла",
+                "price": "500",
+                "image": "../img/4ser.jpg"
+            }
+        }
+    }
+}
+]

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/Restoranam.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<meta charset="UTF-8">
+	<title>Для ресторанов</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<section class="partners-section">
+			<div class="partners-header">
+				<a href="html.html" class="logo">
+					<img alt="Logo" src="img/logo-white.svg"/>
+				</a>
+			</div>
+			<div class="partners-card"> 
+				<h3 class="partners-card-title">
+					Присоединитесь к надежному партнеру по доставке еды 
+				</h3>
+				<button class="partners-card-join" id="card-join"> 
+					Подключиться
+				</button>
+			</div>
+		</section>
+	</div>
+	<div class="main"> 
+		<div class="container"> 
+			<section class="join-partners"> 
+				<h3 class="join-partners-title">C нами уже работают</h3>
+				<div class="join-partners-clients"> 
+					<div class="join-partners-clients-item burger"></div>
+					<div class="join-partners-clients-item kfc"></div>
+					<div class="join-partners-clients-item mak"></div>
+					<div class="join-partners-clients-item tanuki"></div>
+					<div class="join-partners-clients-item shokoladnica"></div>
+					<div class="join-partners-clients-item mybox"></div>
+					<div class="join-partners-clients-item papaJons"></div>
+					<div class="join-partners-clients-item redhernya"></div>
+					<div class="join-partners-clients-item patio"></div>
+					<div class="join-partners-clients-item sadface"></div>
+				</div>
+			</section>
+			
+		</div>
+	</div>		
+	<footer class="footer">
+		<div class="container"> 
+			<div class="footer-block">
+			 	<a href="html.html" class="logo-footer">
+					<img src="img/logo.svg" alt="Logo" >
+				</a>
+				<nav class="footer-nav">
+					<a href="kurer.html" class="footer-link">Курьерам</a>
+					<a href="kontakti.html" class="footer-link">Контакты</a>
+				</nav>
+				<div class="social-links"> 
+					<a href="https://www.instagram.com/" class="social-link"><img src="img/instagram.svg" alt="Instagram"></a>
+					<a href="https://ru-ru.facebook.com/" class="social-link"><img src="img/FBsvg.svg" alt="FaceBook"></a>
+					<a href="https://vk.com/gniloycheloveck" class="social-link"><img src="img/VK.svg" alt="VKontakte"></a>
+				</div>
+			</div>	
+		</div> 
+	</footer>	
+	<div class="modal-restuorant">
+		<div class="modal-restuorant-window">
+			<div class="modal-header">
+				<h3 class="modal-title">Заяква на сотрудничество</h3>
+				<button class="modal-close-restuorant">&times;</button>
+			</div>
+			<form class="filling-for-restaurants"> 
+				<div class="modal-row-contact-information">
+					<h4>Контактная информация</h4>
+					<div class="forms-for-filling"> 
+						<label class="label-def">
+							<input type="text" class="input-def input-def-name"> 
+							<span class="label-title-def-contact-information">Имя</span> 
+						</label>
+						<label class="label-def">
+							<input type="tel" inputmode="text" class="input-def input-def-phone" value="+7">
+							<span class="label-title-def-contact-information">Телефон</span> 
+						</label>
+						<label class="label-def">
+							<input type="email" inputmode="text" class="input-def input-def-email">
+							<span class="label-title-def-contact-information">Электронаня почта</span> 
+						</label> 
+					</div>
+				</div>	
+				<div class="about-restaurants"> 
+					<h4>О ресторане</h4>
+					<div class="about-restaurants-radiobutton">
+						<label class="label-def partners-form-radiobutton">
+							<input type="radio" name="isChain" value="1" class="radio-def radio-def-one">
+							<span class="label-text-def-about-restaurants">Один ресторан</span>
+						</label>
+						<label class="label-def partners-form-radiobutton">
+							<input type="radio" name="isChain" value="1" class="radio-def radio-def-more">
+							<span class="label-text-def-about-restaurants">Сеть (несколько филиалов в одном городе)</span> 
+						</label>
+					</div>
+					<div class="about-restaurants-input"> 
+						<label class="label-def">
+							<input type="text" inputmode="text" class="input-def input-def-nameRestaurants"> 
+							<span class="label-title-def-about-restaurants">Название</span> 
+						</label>
+						<label class="label-def">
+							<input type="text" inputmode="text" class="input-def input-def-webSite">
+							<span class="label-title-def-nneces">Сайт (необязательно)</span> 
+						</label>
+					</div>
+					<div class="about-restaurants-adress"> 
+						<label class="label-def">
+							<input type="text" inputmode="text" class="input-def input-def-address">
+							<span class="label-title-def-about-restaurants">Адрес</span> 
+						</label>
+					</div>
+					<label class="label-def">
+						<input type="text" inputmode="text" class="input-def input-def-city">
+						<span class="label-title-def-about-restaurants">Город</span> 
+					</label>
+					<ul class="input-adress-dropdown">
+						
+					</ul>
+
+				</div>
+				<div class="delivery"> 
+					<h4>Доставка</h4>
+					<div class="delivery-checkboxes"> 
+						<label class="label-def partners-form-checkbox">
+							<input type="checkbox" checked="checked" value="1" class="checkbox-def checkbox-def-own"> 
+							<span class="label-text-def-delivery">Своя</span> 
+						</label>
+						<label class="label-def partners-form-checkbox">
+							<input type="checkbox" value="1" class="checkbox-def checkbox-def-needDelivery"> 
+							<span class="label-text-def-delivery">Нужна доставка Delivery</span> 
+						</label>
+						<label class="label-def partners-form-checkbox">
+							<input type="checkbox" value="1" checked="checked" class="checkbox-def checkbox-def-takeaway"> 
+							<span class="label-text-def-delivery">Навынос</span> 
+						</label>
+					</div>
+				</div>
+				<div class="comment"> 
+					<label class="label-def">
+							<input type="text" inputmode="text" class="input-def input-def-comment">
+							<span class="label-title-def-nneces">Комментарий (необязателно)</span> 
+					</label>
+				</div>
+				<div class="button-submit"> 
+					<button type="submit" class="partners-card-join" id="card-join"> 
+							Отправить
+					</button>	
+				</div>	
+			</form>
+		</div>
+	</div>	
+	<script src="Script/wow.min.js"></script>
+	<script src="Script/restuorants.js"></script>
+</body>
+</html>

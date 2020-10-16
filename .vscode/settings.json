@@ -1,0 +1,4 @@
+{
+    "css.lint.idSelector": "error",
+    "css.lint.ieHack": "error"
+}
